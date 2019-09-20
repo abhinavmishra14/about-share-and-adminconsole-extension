@@ -1,0 +1,19 @@
+<extension>
+	<modules>
+		<module>
+			<id>about-share-and-adminconsole-extension</id>
+			<version>1.0</version>
+			<auto-deploy>true</auto-deploy>
+			<customizations>
+				<customization>
+					<targetPackageRoot>org.alfresco.modules</targetPackageRoot>
+					<sourcePackageRoot>com.aboutshareextn.modules</sourcePackageRoot>
+				</customization>
+				<customization>
+					<targetPackageRoot>org.alfresco.components.footer</targetPackageRoot>
+					<sourcePackageRoot>com.aboutshareextn.components.footer</sourcePackageRoot>
+				</customization>
+			</customizations>
+		</module>
+	</modules>
+</extension>
