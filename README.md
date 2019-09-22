@@ -45,3 +45,12 @@ All the services of the project are now run as docker containers. The run script
 
   * Abstract assembly into a dependency so we don't have to ship the assembly in the archetype
   * Functional/remote unit tests
+ 
+# Sample of about share popup
+
+![Alt text](./samples/Sample-aboutshare-popup-information-about-host.png "About Share")
+
+# Sample of Admin console
+
+![Alt text](./samples/Sample-Adminconsole-SummaryPage.png "Admin console")
+
