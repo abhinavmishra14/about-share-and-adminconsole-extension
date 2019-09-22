@@ -1,9 +1,0 @@
-<webscript>
-  <shortname>Retrieves Host Information</shortname>
-  <description></description>
-  <url>/admin/hostInfo</url>
-  <format default="json">argument</format>
-  <authentication>admin</authentication>
-  <transaction allow="readonly">required</transaction>
-  <family>ADMIN_UTILS</family>
-</webscript>
