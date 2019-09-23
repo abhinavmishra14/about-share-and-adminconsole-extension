@@ -12,7 +12,7 @@
             
             <#-- Customizations [Start] -->
             <#if hostName?? && ipAddress??>
-            	<div>ConnectedAt: ${hostName?html} (${ipAddress?html})</div>
+            	<div>${msg("about-share.host.message")}: ${hostName?html} (${ipAddress?html})</div>
             </#if>
             <#-- Customizations [End] -->
             

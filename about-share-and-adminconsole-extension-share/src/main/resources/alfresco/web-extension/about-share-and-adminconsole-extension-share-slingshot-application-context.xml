@@ -13,4 +13,11 @@
             placed in the alfresco-allinone/share/src/main/resources/alfresco/web-extension/custom-slingshot-application-context.xml file
    -->
 
+	<bean id="com.github.abhinavmishra14.share.module.resources" class="org.alfresco.i18n.ResourceBundleBootstrapComponent">
+      <property name="resourceBundles">
+       <list>
+         <value>alfresco.web-extension.messages.about-share-and-adminconsole-extension-slingshot</value>
+       </list>
+      </property>
+    </bean>
 </beans>
