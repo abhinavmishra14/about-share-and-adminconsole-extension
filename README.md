@@ -50,6 +50,8 @@ All the services of the project are now run as docker containers. The run script
 
 ![Alt text](./samples/Sample-aboutshare-popup-information-about-host.png "About Share")
 
+Note: Host information will displayed only if users are Administrators.
+
 # Sample of Admin console
 
 ![Alt text](./samples/Sample-Adminconsole-SummaryPage.png "Admin console")
