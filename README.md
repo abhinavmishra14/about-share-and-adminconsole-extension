@@ -1,7 +1,23 @@
 # about-share-and-adminconsole-extension
 Extends the 'about-share' module and admin console system summary page to display HostName and LAN IP Address
-
 This is an All-In-One (AIO) project for Alfresco SDK 4.0.
+
+# Prerequisite
+
+##### Understand the concept:
+`https://docs.alfresco.com/6.0/concepts/deploy-concepts.html`
+
+##### Required Tools and deployment:
+Before starting with SDK4.x and docker based project, Install docker on your development environment.
+Follow instructions given here: `https://docs.docker.com/install/`
+You may have to create an account on docker hub.
+
+Go to: `https://hub.docker.com/signup?next=%2F%3Foverlay%3Donboarding` to create an account. 
+
+Visit here for more details: `https://docs.alfresco.com/6.0/concepts/deploy-prereqs.html`
+
+
+# Getting started
 
 Run with `./run.sh build_start` or `./run.bat build_start` and verify that it
 
@@ -27,24 +43,6 @@ All the services of the project are now run as docker containers. The run script
  `integration-tests` module and stop the environment.
  * `test`. Execute the integration tests (the environment must be already started).
 
-# Few things to notice
-
- * No parent pom
- * No WAR projects, the jars are included in the custom docker images
- * No runner project - the Alfresco environment is now managed through [Docker](https://www.docker.com/)
- * Standard JAR packaging and layout
- * Works seamlessly with Eclipse and IntelliJ IDEA
- * JRebel for hot reloading, JRebel maven plugin for generating rebel.xml [JRebel integration documentation]
- * AMP as an assembly
- * Persistent test data through restart thanks to the use of Docker volumes for ACS, ASS and database data
- * Integration tests module to execute tests against the final environment (dockerised)
- * Resources loaded from META-INF
- * Web Fragment (this includes a sample servlet configured via web fragment)
-
-# TODO
-
-  * Abstract assembly into a dependency so we don't have to ship the assembly in the archetype
-  * Functional/remote unit tests
  
 # Sample of about share popup
 
